@@ -88,7 +88,7 @@ const printString = (fName, lName, age) => {
     
     console.log("Hi " + fName + " " + lName + ", " + "how does it feel to be " + age + "?")
 }
-printString("Jane", "Doe", 100)
+printString("Kat", "Stark", 40)
 
 // 6. Use template literals to build the string from #5
 
