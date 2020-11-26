@@ -92,7 +92,7 @@ printString("Jane", "Doe", 100)
 
 // 6. Use template literals to build the string from #5
 
-printString(`Jane`, `Doe`, 100);
+printString(`Kat`, `Stark`, 40);
 
 
 
