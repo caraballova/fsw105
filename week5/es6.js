@@ -84,11 +84,11 @@ console.log(produceProduct(10, 30));
 // lastName should default to "Doe"
 // age should default to 100
 
-const printString = (fName, lName, age) => {
+const printString = (fName = "John", lName = "Doe", age = 100) => {
     
     console.log("Hi " + fName + " " + lName + ", " + "how does it feel to be " + age + "?")
 }
-printString("Kat", "Stark", 40)
+printString("Kat", "Stark", 40);
 
 // 6. Use template literals to build the string from #5
 

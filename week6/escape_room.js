@@ -11,7 +11,7 @@ let foundKey = false;
 while (isAlive == true){
     const menuID = readlineSync.keyIn(` Press 1 if you want to be a menace \n Press 2 to find key \n Press 3 to Escape!`, {limit: `$<1-3>`});
     if (menuID == 1){
-        console.log(`You menace, you have DIED! Game Over for ${name}`);
+        console.log(`You menace, you have DIED! Game Over ${name}`);
         isAlive = false;
     } 
     else if (menuID == 2 && foundKey == true){
